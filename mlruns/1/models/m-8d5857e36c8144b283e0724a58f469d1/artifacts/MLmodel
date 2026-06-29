@@ -1,0 +1,23 @@
+artifact_path: file:C:/AiLab_Test/ClassLabTest/mlruns/1/models/m-8d5857e36c8144b283e0724a58f469d1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.12
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-8d5857e36c8144b283e0724a58f469d1
+model_size_bytes: 1764072
+model_uuid: m-8d5857e36c8144b283e0724a58f469d1
+prompts: null
+run_id: e65fe8220bfb4346a2bb5185cddcf7c1
+utc_time_created: '2026-06-29 03:30:30.529572'
